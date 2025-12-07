@@ -210,7 +210,7 @@ console.log(
 
 ## "Hello, World!" example
 
-In this hypothetical example you will create a multi-lingual Greeter application. You will create an HTTP server that listens on port 3000 and serves dynamic content that contains greetings from around the world. Please see the [Hello, World!](https://github.com/faranalytics/js-html-renderer/tree/main/examples/hello_world) example for a working implementation.
+In this hypothetical example you will create a multi-lingual Greeter application. You will create an HTTP server that listens on port 3000 and serves dynamic content that contains greetings from around the world. Please see the [Hello, World!](https://github.com/adpatter/js-html-renderer/tree/main/examples/hello_world) example for a working implementation.
 
 ### Implement the `index.ts` module
 
@@ -500,6 +500,6 @@ http
 
 ## Support
 
-If you have a feature request or run into any issues, feel free to submit an [issue](https://github.com/faranalytics/js-html-renderer/issues) or start a [discussion](https://github.com/faranalytics/js-html-renderer/discussions). You’re also welcome to reach out directly to one of the authors.
+If you have a feature request or run into any issues, feel free to submit an [issue](https://github.com/adpatter/js-html-renderer/issues) or start a [discussion](https://github.com/adpatter/js-html-renderer/discussions). You’re also welcome to reach out directly to one of the authors.
 
 - [Adam Patterson](https://github.com/adamjpatterson)
