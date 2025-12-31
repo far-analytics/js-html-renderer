@@ -1,7 +1,7 @@
 import { Template, doctype, html, head, body, main, ul, li, $, footer } from "js-html-renderer";
 
-const $greetings = Symbol('greetings');
-const $title = Symbol('title');
+const $greetings = Symbol("greetings");
+const $title = Symbol("title");
 
 const template: Template = doctype()(
     html()(
@@ -9,20 +9,20 @@ const template: Template = doctype()(
             $title
         ),
         body()(
-            main({ id: 'main-content' })(
+            main({ id: "main-content" })(
                 $greetings
             ),
-            footer({id: 'footer'})()
+            footer({id: "footer"})()
         )
     )
 );
 
 // Hello, World!
-const helloWorld = ['Saluton, Mondo!', 'Hello, World!'];
+const helloWorld = ["Saluton, Mondo!", "Hello, World!"];
 
-const greetings = ul({ id: 'greetings' })(
+const greetings = ul({ id: "greetings" })(
     helloWorld.map(
-        (greeting: string, index: number) => li({ id: `greeting-${index}` })(greeting)
+        (greeting: string, index: number) => li({ id: `greeting-${index.toString()}` })(greeting)
     )
 );
 
@@ -37,8 +37,8 @@ const htmlText = template.render(
 console.log(htmlText);
 
 // Custom Element
-const my_custom_element = $.bind(null, 'my-custom-element');
+const my_custom_element = $.bind(null, "my-custom-element");
 
-console.log(my_custom_element({ class: 'custom-element' })('Hello, World!').render());
+console.log(my_custom_element({ class: "custom-element" })("Hello, World!").render());
 
 
