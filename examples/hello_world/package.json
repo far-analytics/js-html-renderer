@@ -21,6 +21,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "@types/web": "^0.0.139",
     "@types/node": "^20.6.2",
     "typescript": "^5.1.6"
   }
